@@ -49,7 +49,7 @@ const DetailItem = (props) => {
       dispatch(addFavourite(newFave))
       Toast.fire({
         icon: 'success',
-        title: 'Pokemon added to tour favourite list'
+        title: 'Pokemon added to your pokemon list'
       })
       history.push('/')
     } else {

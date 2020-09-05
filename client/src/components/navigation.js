@@ -8,7 +8,7 @@ const Navigation = () => {
       <Navbar.Brand>Pokemon</Navbar.Brand>
         <Nav className="mr-auto">
           <Link className="link" to="/"> Home </Link>
-          <Link className="link" to="/favourites"> Favourites </Link>
+          <Link className="link" to="/favourites">My Pokemon</Link>
         </Nav>
     </Navbar>
   )
