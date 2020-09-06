@@ -40,6 +40,9 @@ class FaveController {
         res.status(404).json({ message: 'Error Not Found'})
       }
     })
+    .catch(err => {
+      console.log(err)
+    })
   }
 
 }

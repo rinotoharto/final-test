@@ -43,6 +43,9 @@ const ItemCard = (props) => {
         })
       }
     })
+    .catch(err => {
+      console.log(err)
+    })
   }
 
   return(
